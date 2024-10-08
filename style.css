@@ -1,0 +1,94 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+        margin: 0;
+            padding: 0;
+            }
+
+            header {
+                background-color: #f0f0f0;
+                    padding: 1em;
+                        text-align: center;
+                        }
+
+                        nav ul {
+                            list-style: none;
+                                margin: 0;
+                                    padding: 0;
+                                        display: flex;
+                                            justify-content: space-between;
+                                            }
+
+                                            nav li {
+                                                margin-right: 20px;
+                                                }
+
+                                                nav a {
+                                                    color: #337ab7;
+                                                        text-decoration: none;
+                                                        }
+
+                                                        .product-grid {
+                                                            display: grid;
+                                                                grid-template-columns: repeat(3, 1fr);
+                                                                    gap: 10px;
+                                                                    }
+
+                                                                    .product-card {
+                                                                        background-color: #fff;
+                                                                            border: 1px solid #ddd;
+                                                                                padding: 10px;
+                                                                                    text-align: center;
+                                                                                    }
+
+                                                                                    .product-card img {
+                                                                                        width: 100%;
+                                                                                            height: 150px;
+                                                                                                object-fit: cover;
+                                                                                                }
+
+                                                                                                .product-card h3 {
+                                                                                                    font-size: 18px;
+                                                                                                        margin-top: 0;
+                                                                                                        }
+
+                                                                                                        .product-card p {
+                                                                                                            font-size: 14px;
+                                                                                                                color: #666;
+                                                                                                                }
+
+                                                                                                                #cart-container {
+                                                                                                                    padding: 20px;
+                                                                                                                        border: 1px solid #ddd;
+                                                                                                                            border-radius: 10px;
+                                                                                                                                width: 300px;
+                                                                                                                                    margin: 20px auto;
+                                                                                                                                    }
+
+                                                                                                                                    #cart-container ul {
+                                                                                                                                        list-style: none;
+                                                                                                                                            margin: 0;
+                                                                                                                                                padding: 0;
+                                                                                                                                                }
+
+                                                                                                                                                #cart-container li {
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    }
+
+                                                                                                                                                    #cart-container li span {
+                                                                                                                                                        font-size: 14px;
+                                                                                                                                                            color: #666;
+                                                                                                                                                            }
+
+                                                                                                                                                            #checkout-btn {
+                                                                                                                                                                background-color: #337ab7;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                        border: none;
+                                                                                                                                                                            padding: 10px 20px;
+                                                                                                                                                                                font-size: 16px;
+                                                                                                                                                                                    cursor: pointer;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    #checkout-btn:hover {
+                                                                                                                                                                                        background-color: #23527c;
+                                                                                                                                                                                        }
